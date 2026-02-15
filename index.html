@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0f172a" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Solar Farm Operations Hub</title>
+  </head>
+  <body>
+    <header class="topbar">
+      <h1>Solar Farm Operations Hub</h1>
+      <div>
+        <label for="roleSelect">Role</label>
+        <select id="roleSelect">
+          <option value="worker">Worker</option>
+          <option value="leader">Team leader</option>
+          <option value="supervisor">Supervisor</option>
+        </select>
+      </div>
+    </header>
+
+    <main>
+      <section class="card">
+        <h2 id="welcome">Welcome</h2>
+        <p class="small">Mobile-first MVP demo with core workflows and sample data.</p>
+      </section>
+
+      <section class="grid" id="dashboardButtons"></section>
+
+      <section class="card" id="contentPanel">
+        <h2>Choose an action</h2>
+        <p class="small">Tap one of the buttons above.</p>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

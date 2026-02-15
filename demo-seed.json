@@ -1,0 +1,10 @@
+{
+  "users": [
+    {"email": "worker@solarhub.demo", "password": "Demo123!", "role": "worker", "name": "Will Worker"},
+    {"email": "leader@solarhub.demo", "password": "Demo123!", "role": "team_leader", "name": "Lana Leader"},
+    {"email": "supervisor@solarhub.demo", "password": "Demo123!", "role": "supervisor", "name": "Sam Supervisor"}
+  ],
+  "sites": ["Wagga Solar Zone 1", "Dubbo Trackers East", "Moree Stage B"],
+  "vehicles": ["UTE-14", "LV-03", "Forklift-2"],
+  "groups": ["General announcements", "Zone 1 team chat", "Mechanics / Maintenance", "HSE / Safety"]
+}
