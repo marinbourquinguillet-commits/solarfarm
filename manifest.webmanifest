@@ -1,0 +1,9 @@
+{
+  "name": "Solar Farm Operations Hub",
+  "short_name": "SolarHub",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#0f172a",
+  "icons": []
+}
